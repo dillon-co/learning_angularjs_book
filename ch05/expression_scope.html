@@ -13,7 +13,9 @@
       Adding variables in the scope:<br>
       {{speed+' '+vehicle}}<hr>
       Calling function in the scope:<br>
-      {{lower(speed)}} {{upper(jeep)}}<hr>
+      {{lower(speed)}} {{upper('jeep')}}<hr>
+      <a ng-click="setValues('Fast', newVehicle)">
+        Click to change to a Fast Plane</a><br>
       <a ng-click="setValues(newSpeed, 'Rocket')">
         Click to change to {{newSpeed}} Rocket</a><br>
       <a ng-click="vehicle='Car'">
